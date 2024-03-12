@@ -1,0 +1,20 @@
+﻿BusStationInformationSystem
+
+
+winexe
+C#
+.cs
+C:\Users\pavel\Desktop\КубГТУ\Курс 3\Проектирование(1-5)\Курсовая\BusStationInformationSystem\obj\Debug\
+BusStationInformationSystem
+none
+false
+DEBUG;TRACE
+C:\Users\pavel\Desktop\КубГТУ\Курс 3\Проектирование(1-5)\Курсовая\BusStationInformationSystem\App.xaml
+712528897
+
+15-1307252934
+13-38814620
+MVVM\View\HomeView.xaml;MVVM\View\WaysView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;UI\AppWindow.xaml;UI\MainWindow.xaml;UI\RegistrationWindow.xaml;
+
+True
+

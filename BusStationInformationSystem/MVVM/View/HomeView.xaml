@@ -1,0 +1,132 @@
+﻿<UserControl x:Class="BusStationInformationSystem.MVVM.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BusStationInformationSystem.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock  Text="Главная страница                          Добро Пожаловать"
+                    Foreground="Yellow"
+                    FontSize="28"
+                    Margin="10,0,0,20"/>
+        
+
+        <StackPanel Orientation="Horizontal">
+            <Border Width="400"
+                    Height="200"
+                    Margin="10,0,0,0">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
+                        <GradientStop Color="#ffc554" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="15"
+                                       RadiusY="15"
+                                       Rect="0,0,400,200"/>
+                </Border.Clip>
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Автовокзал Сапсан современный&#x0a;транспортный центр&#x0a;предоставляющий широкий выбор&#x0a;междугородних и международных&#x0a;автобусных маршрутов."
+                                   Foreground="White"
+                                   FontSize="24"
+                                   Margin="0,10,10,0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border Width="200"
+                    Height="200"
+                    CornerRadius="15"
+                    Margin="75,0,0,0">
+
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#ffc554" Offset="0.0"/>
+                        <GradientStop Color="#ffc554" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="Сапсан:&#x0a;Ваше удобство&#x0a;Наш приоритет"
+                                   Foreground="White"
+                                   FontSize="24"
+                                   Margin="10,10,10,0" Height="109" Width="178"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </StackPanel>
+
+        <StackPanel>
+            <TextBlock Text="Акции"
+               Foreground="White"
+               FontSize="24"
+               Margin="20,10,10,0"/>
+            <StackPanel Orientation="Horizontal">
+
+                <Border Width="150"
+                        Height="150"
+                        Background="#844eff"
+                        CornerRadius="15"
+                        Margin="10,0,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Выходные&#x0a;Tуры"
+                                   Foreground="White"
+                                   FontSize="24"
+                                   Margin="10,10,10,0" Height="109" Width="178"/>
+                    </StackPanel>
+                </Border>
+
+
+                <Border Width="150"
+                        Height="150"
+                        Background="#4e99ff"
+                        CornerRadius="15"
+                        Margin="20,0,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Друзья&#x0a;в дороге"
+                                   Foreground="White"
+                                   FontSize="24"
+                                   Margin="10,10,10,0" Height="109" Width="178"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Width="150"
+                        Height="150"
+                        Background="#4eff91"
+                        CornerRadius="15"
+                        Margin="20,0,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Путешествие&#x0a;вдвоем"
+                                   Foreground="White"
+                                   FontSize="22"
+                                   Margin="10,10,10,0" Height="109" Width="178"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Width="150"
+                        Height="150"
+                        Background="#FFC9DD26"
+                        CornerRadius="15"
+                        Margin="20,0,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Дети&#x0a;путешественники"
+                                   Foreground="White"
+                                   FontSize="16"
+                                   Margin="10,10,10,0" Height="109" Width="178"/>
+                    </StackPanel>
+                </Border>
+
+            </StackPanel>
+
+        </StackPanel>
+
+
+    </StackPanel>
+</UserControl>

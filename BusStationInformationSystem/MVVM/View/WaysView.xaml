@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="BusStationInformationSystem.MVVM.View.WaysView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BusStationInformationSystem.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="#FF1D1836">
+    <Grid>
+        <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,50,0,0" HorizontalAlignment="Center" Width="800" ColumnWidth="SizeToHeader" Name = "DataGrid">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер" Binding="{Binding Number}"/>
+                <DataGridTextColumn Header="Код рейса" Width="120" Binding="{Binding Code}"/>
+                <DataGridTextColumn Header="Откуда " Width="120" Binding="{Binding Otkuda}"/>
+                <DataGridTextColumn Header="Куда" Width="125" Binding="{Binding Kuda}"/>
+                <DataGridTextColumn Header="Время отбытия" Width="125" Binding="{Binding StartDate}"/>
+                <DataGridTextColumn Header="Время прибытия" Width="126" Binding="{Binding EndDate}"/>
+                <DataGridTextColumn Header="Состояние" Width="130" Binding="{Binding State}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock  Text="Рейсы"
+                    Foreground="#FF00FF91"
+                    FontSize="28"
+                    Margin="20,0,0,20"/>
+
+    </Grid>
+</UserControl>
